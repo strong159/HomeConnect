@@ -1,0 +1,68 @@
+.homePage {
+  .logoContainer {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .logo {
+    width: 200px; /* Adjust the size of the logo */
+    height: auto;
+  }
+
+  .textContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .wrapper {
+    padding-right: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+    height: 100%;
+
+    .title {
+      font-size: 64px;
+    }
+
+    .boxes {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 20px;
+
+      .box {
+        h2 {
+          font-size: 36px;
+        }
+      }
+    }
+  }
+
+  .imgContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    img {
+      width: 80%;
+      height: auto;
+    }
+  }
+
+  .chatbot-section {
+    margin-top: 40px; /* Add more space above the chatbot */
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    max-width: 800px;
+    margin: 40px auto; /* Center the chatbot section */
+
+    h2 {
+      font-size: 24px;
+      margin-bottom: 15px;
+    }
+  }
+}
