@@ -1,0 +1,26 @@
+# macOS
+.DS_Store
+
+# Node / React
+node_modules/
+dist/
+build/
+.vite/
+.parcel-cache/
+coverage/
+npm-debug.log*
+yarn-error.log*
+
+# Env & secrets
+.env
+env/
+.env.*
+
+# Editors
+.vscode/
+
+# Python (if any backend scripts)
+__pycache__/
+*.pyc
+.venv/
+venv/
